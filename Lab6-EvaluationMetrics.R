@@ -153,7 +153,8 @@ if (require("mlbench")) {
 }
 
 ## pROC ----
-if (require("pROC")) {
+if (require
+    ("pROC")) {
   require("pROC")
 } else {
   install.packages("pROC", dependencies = TRUE,
